@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section#superior{
+    background: #2c422c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7e0808, #015501);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e62b2b, #36f836); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    height: 465px;
+}
+header#cabecera{
+    display: block;
+    margin: auto;
+    width: 940px; 
+    height: 98px;
+}
+#cabecera ul {
+    float: right;
+    list-style: none;
+    display: block ;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 175px;
+}
+    #cabecera ul li {
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+        height: 45px;
+        width: 45px;
+    }
+    div#logos{
+        float: left; 
+        height: 25px;
+        margin-top: -25px;
+        width: 100px;
+
+    }
+
+    nav{
+        background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91db60, #3885c4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d860c0, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: block;
+height: 45px;
+margin: auto;
+padding: 0;
+width: 940px;
+    }
+nav ul{
+    display: block;
+    float: left;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+nav a{
+    color: #690909;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    height: 25px;
+padding: 10px;
+text-decoration: none;
+}
+nav a:hover,a:focus{
+    background: #3496e7;
+    color: rgb(158, 20, 20);
+}
+#slider{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 295px;
+    width: 940px;
+}
+section#contenedor{
+background: rgb(238, 45, 45);
+}
+section#contenedorinterior{
+    background: rgb(44, 19, 156)55, 255, 255);
+    display: block;
+    margin: auto;
+    width: 940px;
+}
+section#contenido{
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 700px;
+}
+aside{
+    display: block;
+    float: right;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 230px;
+}
+h4{
+    background: #018af3;
+color: rgb(110, 5, 5);
+vertical-align: middle;
+padding-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+height: 35px;
+text-align: left;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+p{
+    color: rgba(0, 0, 0, 0.082);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    color: rgb(64, 122, 240);
+    padding: 10px;
+}
+h3{
+    background: #8e9eab;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+}
+.info p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+#limpiar{
+    clear: both;
+}
+.infoimg{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.info p{
+    display: block;
+    width: 460px;
+    float: right;
+}
+.comoempresa{
+    width: 700px;
+    display: block;
+    float: left;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+section#inferior{
+    background: #62b5f8;
+}
+footer{
+    display: block;
+    margin: auto;
+    height: 90px;
+    width: 900px;
+    text-align: right;
+}
+.datacontacto {
+    padding: 0px;
+    margin: 10px;
+    width: 675px;
+}
+form{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 565px;
+}
+label{
+    color: #34b134;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+input{  
+    width: 480px;
+    height: 20px;
+    border: 2px solid #580505;
+margin-top: 5px;
+font-size: 14px;
+}
+textarea{
+    width: 480px;
+    height: 142px;
+    border: 2px solid #463535;
+    margin-top: 5px;
+    font-size: 14px;
+}
+#button{
+    background: #6ec9e0;
+    border-color: #075799;
+    border-radius: 5px;
+    height: 31px;
+    width: 91px;
+}
